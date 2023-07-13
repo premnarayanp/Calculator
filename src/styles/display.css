@@ -1,41 +1,49 @@
 .display {
-    height: 10%;
+    height: 18%;
     width: 90%;
     margin: auto;
     border: solid darkSgray 3px;
     border-radius: 10px;
     background-color: aliceblue;
-    text-align: right;
     position: relative;
 }
 
-#result {
+.display-items {
     font-size: 25px;
-    color: blue;
     font-weight: 700;
     line-height: 40px;
-    position: absolute;
-    padding: 0;
     margin: 0;
+}
+
+#query {
+    color: blue;
+    width: 100%;
+    position: absolute;
+    top: 0;
     right: 0;
-    overflow: hidden;
-    /* overflow-x: scroll;
-    overflow-y: hidden; */
+    direction: rtl;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+#result {
+    color: green;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 
 /* Hide scrollbar for IE and Edge Firefox*/
 
-
-/* #result {
+#query {
     -ms-overflow-style: none;
     scrollbar-width: none;
-} */
+}
 
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 
-
-/* #result::-webkit-scrollbar {
+#query::-webkit-scrollbar {
     display: none;
-} */
+}

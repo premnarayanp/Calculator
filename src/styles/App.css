@@ -1,10 +1,10 @@
 .app {
-    height: 400px;
+    height: 450px;
     width: 350px;
     /*background-color: rgb(153, 135, 138);*/
     background-color: slategrey;
     margin: auto;
     margin-top: 100px;
     border-radius: 30px;
-    padding-top: 40px;
+    padding-top: 25px;
 }
