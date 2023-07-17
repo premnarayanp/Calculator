@@ -12,22 +12,36 @@
     flex-direction: column; */
 }
 
-.action-btn-table {
+.action-bar .row {
+    width: 100%;
+    height: 20%;
+}
+
+.row button {
+    text-align: center;
+    border: 2px solid rgb(189, 163, 163);
+    width: 25%;
+    height: 100%;
+    font-size: 25px;
+    font-weight: 600;
+    /* cursor: pointer; */
+}
+
+.row .zero-btn {
+    width: 50%;
+}
+
+.operators {
+    background-color: orange;
+}
+
+.row button:hover {
+    background-color: gray;
+}
+
+
+/* .action-btn-table {
     width: 100%;
     height: 100%;
     border-collapse: collapse;
-}
-
-.action-btn-table td {
-    text-align: center;
-    border: 3px solid rgb(189, 163, 163);
-    width: 50px;
-    height: 20%;
-    font-size: 25px;
-    font-weight: 600;
-    cursor: pointer;
-}
-
-.operators-btn {
-    background-color: orange;
-}
+} */
