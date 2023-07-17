@@ -1,3 +1,11 @@
+#Calculator App
+  with simple calculation
+
+#Projects Info:-
+ Video Link:-https://youtu.be/zd5MzfCfBHE
+ github https:-https://github.com/premnarayanp/Calculator.git
+ Hosted Link:-http://premnarayanp.github.io/Calculator
+ 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
